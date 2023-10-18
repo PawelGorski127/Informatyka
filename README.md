@@ -1,1 +1,2 @@
 # Informatyka
+Paweł Górski
