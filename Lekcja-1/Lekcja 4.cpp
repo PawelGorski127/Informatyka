@@ -2,22 +2,34 @@
 using namespace std;
 int main(){
 
-    cout << "Podaj liczbe: ";
-for (int Wysokosc=0; Wysokosc <= 3; Wysokosc++ ){ // tutaj jest wysokość kwadratu
-if (Wysokosc < 3)
-cout << Wysokosc << "*" << 3*0 << endl;
-}
-	for (int Szerokosc=0; Szerokosc <= 5; Szerokosc++){ // tutaj jest szerokość kwadratu
-if (Szerokosc < 5)
-}
+int Szerokosc, Wysokosc;
+cout <<"Podaj szerokosc" <<  endl;
+cin >> Szerokosc;
+cout << "Podaj wysokosc";
+cin >> Wysokosc;
+    
+for (int i=0; i < Wysokosc; i++ ){ // tutaj jest wysokość kwadratu
+for (int j=0; j < Szerokosc; j++){ // tutaj jest szerokość kwadratu
 
+if (Wysokosc == 0 || i == Wysokosc -1 ) // Pierwszy 'if' w którym znajduje się warunek  
+
+cout << "*";
+
+else if (j == 0 || j == Szerokosc -1) // Drugi 'if' w którym znajduje się warunek
+
+cout << "*";
+
+else
+cout << " ";
 	
-	
+    }
 	
 	cout << endl;
+  }
+
 
 }
-	
+
 	
 
 
