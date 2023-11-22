@@ -3,9 +3,11 @@ using namespace std;
 
 int main(){
 
-for (int i=1; i <= 10; i++ ){
-	for (int j=1; j <= 10; j++){ //jest to program zawierający podwójny "for"
-    cout << i << " * " << j << " = " << i*j << endl;    
+for (int i=102; i <= 999; i++ ){
+	for (int j=999; j <= 999; j++){ //jest to program zawierający podwójny "for"
+    if (i >= 100)  cout << (i - 9);
+   else  cout << (i == 102);
+	cout << i << " * " << j << " = " << i*j << endl;    
 
 }
 cout << endl;
