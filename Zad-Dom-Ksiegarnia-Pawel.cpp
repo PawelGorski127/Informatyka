@@ -41,27 +41,27 @@ cin >> wybor;
 switch(wybor)
     {
     case 1:
-    	cout << "Podaj nazwe ksiazki"
+    	cout << "Podaj nazwe ksiazki";
     	cin >> nazwa;
     	if (nazwa < Tytul1) cout << "Brak Wyniku" << endl;
         break;
     case 2:
-        cout << "Podaj wydawnictwo:"
+        cout << "Podaj wydawnictwo:";
         cin >> wydawnictwo;
         if ( Wydawnictwo < Helion1) cout << "Brak Wyniku" << endl;
         break;
     case 3:
-        cout << "Podaj cenę:"
+        cout << "Podaj cenę:";
         cin >> cena;
         if (cena < 23.54) cout << "Brak Wyniku" << endl;
         break;
     case 4:
-    	cout << "Podaj Autora:"
+    	cout << "Podaj Autora:";
     	cin >> autor;
     	if (autor < autor1) cout << "Brak wyniku" << endl;
     	break;
     case 5:
-		cout << "Podaj Rok wydania:"
+		cout << "Podaj Rok wydania:";
 		cin >> Rok;
 		if (Rok < 1925) cout << "Brak Wyniku" << endl;
 		break;
